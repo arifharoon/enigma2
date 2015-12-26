@@ -521,6 +521,7 @@ def InitUsageConfig():
 		("deu ger", _("German")),
 		("ell gre", _("Greek")),
 		("heb", _("Hebrew")),
+		("hin", _("Hindi")),
 		("hun", _("Hungarian")),
 		("ita", _("Italian")),
 		("lav", _("Latvian")),
@@ -539,7 +540,8 @@ def InitUsageConfig():
 		("swe", _("Swedish")),
 		("tha", _("Thai")),
 		("tur Audio_TUR", _("Turkish")),
-		("ukr Ukr", _("Ukrainian"))]
+		("ukr Ukr", _("Ukrainian")),
+		("urd", _("Urdu"))]
 
 	def setEpgLanguage(configElement):
 		eServiceEvent.setEPGLanguage(configElement.value)
